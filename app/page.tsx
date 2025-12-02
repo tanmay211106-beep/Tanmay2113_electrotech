@@ -1,10 +1,14 @@
-// app/head.tsx
-export default function Head() {
+export default function Home() {
   return (
-    <>
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <meta name="theme-color" content="#0f172a" />
-      <meta name="robots" content="index, follow" />
-    </>
-  );
+    <main className="min-h-screen flex items-center justify-center">
+      <div className="text-center p-8">
+        <h1 className="text-4xl font-bold text-slate-900 mb-4">
+          Welcome to ElectroTech
+        </h1>
+        <p className="text-lg text-slate-600">
+          Your Electronics & Telecommunication Solutions Platform
+        </p>
+      </div>
+    </main>
+  )
 }
